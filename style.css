@@ -105,6 +105,7 @@ a:hover{
   margin-top: 0px;
   margin: auto;
   display: block;
+  height: 130px;
 }
 .item-img{
   background:rgb(255, 224, 229);

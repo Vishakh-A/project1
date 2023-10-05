@@ -56,7 +56,7 @@
      box-shadow: none;
   }
 .simplibtn{
-  margin-top: 3%;
+  margin-top: 2.7%;
   
  
 }
@@ -67,17 +67,15 @@
   font-weight: bolder;
   color:#FB9577;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0;
+}
+.sm-pizza{
+  display: none;
 }
 button:hover{
   cursor: pointer;
 }
 
-@media  screen and (max-width: 769px) {
-
-  .img_logo{
-    display: none;
-  }
-}
 a{
   color: black;
 }
@@ -135,3 +133,35 @@ a:hover{
   /* font-weight: bold; */
   font-size: larger;
 }
+.sidenav p a{
+  line-height: 3;
+  font-weight: 600;
+  color: rgb(161, 161, 161);
+  margin-left:10px ;
+
+}
+p a img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.go-hr{
+  width: 20%;
+}
+
+@media  screen and (max-width: 769px) {
+
+  .img_logo{
+    display: none;
+  }
+  li h1{
+    display: none;
+  }
+  .sm-pizza{
+    display: block;
+    text-align: center;
+  }
+}
+
+
